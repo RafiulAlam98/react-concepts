@@ -1,0 +1,9 @@
+.homeBtn{
+    margin: 16px;
+    background-color: brown;
+    border: none;
+    padding: 16px;
+    font-size: 24px;
+    color: white;
+    border-radius: 8px;
+}

@@ -1,0 +1,19 @@
+.hooks-container{
+    text-align: center;
+    margin-top: 70px;
+}
+h1{
+    font-size: 36px;
+    color: blueviolet;
+    margin: 8px 0;
+}
+
+button{
+    background-color: tomato;
+    color: white;
+    border: none;
+    padding: 28px;
+    font-size: 16px;
+    border-radius: 4px;
+    margin: 16px;
+}
