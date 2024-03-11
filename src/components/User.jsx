@@ -1,10 +1,11 @@
 /* eslint-disable react/prop-types */
+import '../css/Users.css'
 
 
 const User = ({user}) => {
-    const {username,name,phone, address, website, email,} =user
+    const {username,name,phone} = user
     return (
-        <div className="cards">
+        <div className="cards" >
         <h1>{username}</h1>
         <h2>{name}</h2>
         <h4>{phone}</h4>
@@ -13,3 +14,10 @@ const User = ({user}) => {
 };
 
 export default User;
+
+// step 1= data fetch
+// step 2= data store useState
+// traverse
+// single object --> website view
+// different component
+

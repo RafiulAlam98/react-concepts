@@ -1,11 +1,12 @@
 /* eslint-disable no-unused-vars */
-import { useState } from "react";
+
+import { useState } from 'react';
 import '../css/Hooks.css'
 
 const Hooks = () => {
-    const [value, setValue]= useState(10)
+    const [value,setValue] = useState(0)
     const handleIncrement = ()=>{
-        const newValue = value + 10
+        const newValue = value + 1
         setValue(newValue)
     }
     const handleDecrement = ()=>{
