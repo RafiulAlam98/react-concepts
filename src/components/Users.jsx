@@ -1,6 +1,7 @@
 import { useEffect, useState, } from "react";
 import '../css/Users.css'
 import User from "./User";
+import AddUser from "./AddUser";
 
 const Users = () => {
     const [users,setUsers] = useState([])
@@ -13,11 +14,14 @@ const Users = () => {
 
 
     return (
-        <div className="card-container">
-          {
-            users.map((user)=><User key={user.id} user={user}/>)
-          }
-        </div>
+<>
+<AddUser/>
+<div className="card-container">
+{
+  users.map((user)=><User key={user.id} user={user}/>)
+}
+</div>
+</>
     );
 };
 

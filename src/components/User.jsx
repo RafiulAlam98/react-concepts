@@ -4,6 +4,7 @@ import '../css/Users.css'
 
 const User = ({user}) => {
     const {username,name,phone} = user
+    console.log(user)
     return (
         <div className="cards" >
         <h1>{username}</h1>
